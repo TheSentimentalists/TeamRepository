@@ -1,2 +1,2 @@
 # TeamRepository
-Use this folder a team drive
+Use this folder as team drive

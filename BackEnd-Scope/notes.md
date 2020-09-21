@@ -1,24 +1,16 @@
-# Back End Scope
+# Back End Scope tasks
 
-The items below summarize what we will be looking at for the Back End processing:
+**Ana (AI processing)**
+- TextBlob: Polarity & Subjectivity Score
+- URL Reliability: Gate Source Credibility API
+- Spacy library: Cross-Analysis of Docs
 
-## Tasks:
+**Jyotshna (user input)**
+- Newspaper library: URL Input processing
+- Analysis of the user input: Reject URLs; test different sources (only article news?)
 
-**Ana - focus on AI processing**
-- TextBlob 
-    * Polarity Score
-    * Subjectivity Score
-- URL Reliability
-    * Gate Source Credibility API
-- Spacy library
-    * Cross-Analysis of Docs
-
-**Jyotshna - focus on user input**
-- Newspaper library
-    * URL Input processing
-- Analysis of the user input
-    * Reject URLs
-    * Test different sources (only article news?)
+**Ana / Jyotshna**
+- Interface between modules, lambda functions
 
 ## Extras
 * Search Feature

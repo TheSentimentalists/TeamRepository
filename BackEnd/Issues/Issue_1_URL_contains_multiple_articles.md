@@ -7,4 +7,3 @@
 - In case this happens:
 * Reject the URL (how?)
 * Send a message on the screen warning that the link contains several articles?
-

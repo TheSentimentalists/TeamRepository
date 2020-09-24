@@ -1,9 +1,10 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 function Header() {
   return (
-    <h1>The Sentimentalists</h1>
-  );
+    <Typography variant="h3">The Sentimentalists</Typography>
+  ); 
 }
 
 export default Header;

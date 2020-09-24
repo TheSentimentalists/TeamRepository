@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 function URLInput() {
   return (
     <Container maxWidth="md">
-      <Grid
+      <Grid container
         direction="row"
         alignItems="flex-start"
         justify="center"

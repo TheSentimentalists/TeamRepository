@@ -1,0 +1,25 @@
+# Meeting Notes
+Date: Thursday, 24th September 2020 - 9.00AM
+Attendees: Jyothsna, Ellie, Ana, Jamie
+Topics:  Various including - Sentiment-analysis solution testing and results so far
+                             
+•	Test carried out by keying in 33 'url' - refer to 'News papers.xlxs' at GitHub folder - Solution Testing
+•	The ‘urls’ are articles from various well-known new papers/ channels as supplied by the team members
+•	These articles are items across the globe with varying type
+•	The purpose of the test is note if above solution provides 'Polarity' and ‘Subjectivity’ results
+•	The results are stored in the 'News papers.xlxs' sheet
+•	It is observed that results produced are reasonably consistent
+Exceptions: 
+•	Unable to test in a case where the user is required a subscription
+•	Unable to test where the content is in not available to view in  the U.K
+•	In the case of predominantly ‘Video’ news with little text – unable to understand how the analysis is carried out.  Newspaper library could have omitted information in the video, processes brief text in the article – In this case, results may not be accurate 
+•	The Sun – an article ‘url’ results in multiple article texts – we do not know yet what is causing this and a fix – we this as one off issue 
+
+ To be considered while writing the application: 
+•	Location of the user – does it make an impact 
+•	Regional availability of the Applicable – could any one around the Globe access 
+•	Kind of support in live environment, especially if any bugs / development with the libraries in Sentiment analysis solution. We understand the attributes of the libraries are inherited. Possible solution is to log with the library creators as an alternative to altering AI logic of the libraries at this stage of the project
+•	Disclaimer to user, News papers/ Channels on results: we are transparent, open source project
+•	Message back to the user – Response on an incorrect ‘url’ are keyed-in: To decide best solution would cover the mechanism  
+•	In future, team members can check an article of their interest and update above mentioned 'News papers.xlxs' sheet and discuss issues / observations they might have come noticed 
+•	Key action on all – review the formula discussed during the meeting to present results to the front end. Please bring-it up in next (25th Sep) team meeting including details they propose if we need to rework. We plan to work on implementing these measurements around afternoon of 25th Sep 2020

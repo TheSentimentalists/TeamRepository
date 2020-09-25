@@ -1,6 +1,6 @@
 import React from "react";
 import {Typography, Container, Grid }from "@material-ui/core";
-import Text from "./components/Text";
+import DisplayText from "../components/DisplayText";
 
 
 
@@ -17,7 +17,7 @@ function Header() {
         <Typography variant="h5">Analysing Sentiment Since 2020</Typography>
         </Grid>
         <Grid item xs={12} md={12}>
-        <Text></Text>
+        <DisplayText></DisplayText>
       
       </Grid>
       </Container>

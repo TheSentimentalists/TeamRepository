@@ -5,9 +5,13 @@ import Typography from "@material-ui/core/Typography";
 function URLInput() {
   return (
     <div>
-      <Container fixed>
-            
-      </Container>
+      <Grid container
+      justify="center"
+      alignItems="flex-start">
+        <Grid item xs={10} md={8}>
+        <TextField id="outlined-basic" label="Enter URL" variant="outlined" fullWidth   />
+        </Grid>
+      </Grid>
     </div>
   );
 }

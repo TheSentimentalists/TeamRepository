@@ -1,5 +1,7 @@
 import React from "react";
 import {Typography, Container, Grid }from "@material-ui/core";
+import Text from "./components/Text";
+
 
 
 function Header() {
@@ -15,9 +17,7 @@ function Header() {
         <Typography variant="h5">Analysing Sentiment Since 2020</Typography>
         </Grid>
         <Grid item xs={12} md={12}>
-        <Typography variant="body2" text="Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro."></Typography>
-        <Typography variant="body2"text="De carne lumbering animata corpora quaeritis."></Typography>
-        <Typography variant="body2" text="Summus brains sit​​, morbo vel maleficia?"></Typography>
+        <Text></Text>
       
       </Grid>
       </Container>

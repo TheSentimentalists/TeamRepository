@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Text from "./components/Text";
 import WordOfDay from './components/WordOfDay';
+import Mood from './components/Mood';
 
 
 
@@ -23,6 +24,9 @@ const greeting = "How are you?";
    {word: "cauliflower"}// always remember how to access objects and arrays
  );
 
+ const [moodToday, setMood] = useState([
+   {mood : "pensive"}
+ ]);
 
 
  return (
@@ -36,6 +40,8 @@ const greeting = "How are you?";
   displayBlurb={blurb} displayMoreBlurb={moreBlurb}
   ></Text>
   <WordOfDay displayWordOfDay={wordOfDay}></WordOfDay>
+  <Mood displayMood={moodToday}></Mood>
+  
       </div>
       
     </div>

@@ -1,20 +1,9 @@
 import React from "react";
+import Text from '../components/Text';
 import Typography from '@material-ui/core/Typography';
 
-function DisplayText({text}) {
-
-    const [ text, setText ] = useState([
-        { textDescription: 'test'}
-      ]);
-
-    return (
-    <p>
-    <Typography variant="body2"></Typography>
-    <Typography variant="body2"></Typography>
-    <Typography variant="body2"></Typography>
-    </p>
-    )
-
+function DisplayText() {
+    
 }
 
 export default DisplayText;

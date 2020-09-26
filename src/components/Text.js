@@ -1,15 +1,19 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
+import WordOfDay from '../components/WordOfDay';
+
 
 function Text(props){
  return (
 <div>
  <Typography variant="body2">{props.displayGreeting}<br/>
  Now it's time to {props.displayActivity}<br/>
- Your colour of the day is {props.displayColour}
+ Your colour of the day is {props.displayColour}<br/>
+ Read this: {props.displayBlurb}<br/>
+ {props.displayMoreBlurb}<br/>
  </Typography>
-
- </div>
+ <WordOfDay></WordOfDay>
+</div>
  )
 }
 

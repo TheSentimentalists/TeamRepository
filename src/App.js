@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Text from "./components/Text";
 
 
+
 function App() {
   const text = "test"; 
   //declaring a variable with a value stored in it, the variable is passed to the Text compoent as a prop(like an HTML attribute)
@@ -15,6 +16,12 @@ const greeting = "How are you?";
  const colour = "Magenta";
 
  const [blurb] = useState("Leggings bertelli gucci, work it girl opening strut would her never design.");
+ const [moreBlurb] = useState("Prada catwalk catwalk girl bye, million all eyes on you my models gucci never is designer. ")
+
+ const [wordOfDay] = useState(
+   {word: "cauliflower"}// always remember how to access objects and arrays
+ );
+
 
 
  return (
@@ -24,8 +31,9 @@ const greeting = "How are you?";
       <div>
         <p>Hello {name}</p>
   <p>This is a {text}</p>
-  <Text displayGreeting={greeting} displayActivity={activity} displayColour={colour}></Text>
- <p>{blurb}</p>
+  <Text displayGreeting={greeting} displayActivity={activity} displayColour={colour}
+  displayBlurb={blurb} displayMoreBlurb={moreBlurb}
+  ></Text>
       </div>
       
     </div>

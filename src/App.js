@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Text from "./components/Text";
+import WordOfDay from './components/WordOfDay';
 
 
 
@@ -34,6 +35,7 @@ const greeting = "How are you?";
   <Text displayGreeting={greeting} displayActivity={activity} displayColour={colour}
   displayBlurb={blurb} displayMoreBlurb={moreBlurb}
   ></Text>
+  <WordOfDay displayWordOfDay={wordOfDay}></WordOfDay>
       </div>
       
     </div>

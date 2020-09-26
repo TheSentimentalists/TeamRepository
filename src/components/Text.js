@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from '@material-ui/core/Typography';
-import WordOfDay from '../components/WordOfDay';
+
 
 
 function Text(props){
@@ -12,7 +12,6 @@ function Text(props){
  Read this: {props.displayBlurb}<br/>
  {props.displayMoreBlurb}<br/>
  </Typography>
- <WordOfDay></WordOfDay>
 </div>
  )
 }
